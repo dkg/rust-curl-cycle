@@ -1,0 +1,12 @@
+[package]
+name = "curl-cycles"
+version = "0.0.1"
+authors = [
+ "Daniel Kahn Gillmor <dkg@fifthhorseman.net>",
+]
+license = "MIT/Apache-2.0"
+description = "Testing Curl Cycles."
+edition = "2021"
+
+[dependencies]
+curl = "0.4.39"

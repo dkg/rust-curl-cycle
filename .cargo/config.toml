@@ -1,0 +1,9 @@
+# as suggested by silwol in #debian-rust, taken from
+# https://sources.debian.org/src/squeekboard/1.16.0-1/debian/cargo/config/
+
+[source.crates-io]
+registry = 'https://github.com/rust-lang/crates.io-index'
+replace-with = 'vendored-sources'
+
+[source.vendored-sources]
+directory = '/usr/share/cargo/registry'
